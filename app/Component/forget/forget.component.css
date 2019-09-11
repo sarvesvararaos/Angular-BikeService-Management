@@ -1,0 +1,20 @@
+table{
+    width: 500px;
+    text-align: center;
+    margin-top:100px;
+    background: rgba(57, 25, 7, 0.29);
+    
+    
+}
+.table {
+    background-color: rgba(57, 25, 7, 0.29);
+}
+.table-primary, .table-primary>th, .table-primary>td {
+    background-color:rgba(57, 25, 7, 0.29);
+}
+button{
+    
+ 
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+#about{
+    float: left;
+    padding: 20px;
+    background-image: linear-gradient(to right top, #18323c, #4f374a, #18323c, #18323c, #18323c, #18323c, #21212b, #09090e, #000000, #18323c, #18323c, #18323c);
+    width: 550px;
+}
+p{
+    /* font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    font-weight: bold; */
+    font-family:georgia,serif;
+    color:#f7f7f7;
+    font-size:15px;
+    font-weight:normal;
+    line-height:240%;
+    padding:0px; 
+    width: 500px;
+    font-style: italic;
+    
+}
+h2{
+    font-family: webkit;
+}
+img{
+    border: 4px solid rgb(71, 27, 27);
+    width: 968px;
+}

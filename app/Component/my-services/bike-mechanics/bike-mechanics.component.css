@@ -1,0 +1,28 @@
+button{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-primary {
+    font-family:  monospace;
+    background-color: #ff7600;
+    border-color: #106fce;
+    color:white;
+}
+table{
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 50px;
+    float:right;
+    position: absolute;
+}
+th,td{
+    text-align: center;
+    border: 1px solid #907272;
+    background: #000000e6;      
+
+}
+td{
+padding-right: 50px;
+}

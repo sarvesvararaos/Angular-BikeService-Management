@@ -1,0 +1,40 @@
+
+input{
+    width: 200px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    height: 28px;
+    background: white;
+    
+}
+.container-fluid{
+   color: white;
+    margin-top:80px; 
+    margin-left: 900px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 30px 50px 30px;
+    border: 1px solid #BFBFBF;
+    background: rgba(57, 25, 7, 0.29);
+    
+}
+td{
+    padding: 10px;
+}
+table{
+    width: 250px;
+    margin-top:20px; 
+    
+}
+.reg{
+    padding-top: 20px;
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}

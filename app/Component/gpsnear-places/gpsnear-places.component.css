@@ -1,0 +1,20 @@
+agm-map {
+    height: 500px;
+    width: 1200px;
+
+  }
+  
+  
+  * {
+    font-family: Lato;
+  }
+  
+  a {
+    color: darkblue;
+  }
+  #mas{
+      border:2px solid white;
+      margin-right: auto;
+      margin-left: 50px;
+      width: 1205px; 
+  }

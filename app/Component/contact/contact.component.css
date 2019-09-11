@@ -1,0 +1,82 @@
+/* img{
+    height: 500px;
+    width:500px;
+    float: right;
+    margin-right: 200px;
+ 
+ border: 2px solid black;
+ background: linear-gradient(to right top, #503c47, #4f374a, #4b334f, #443055, #372e5c, #312b5e, #292860, #1f2662, #281f5e, #301859, #370e53, #3d004c);
+}
+#back{
+    
+    height: 800px;
+    background: linear-gradient(to right top, #503c47, #4f374a, #4b334f, #443055, #372e5c, #312b5e, #292860, #1f2662, #281f5e, #301859, #370e53, #3d004c);
+}
+form{
+   padding-top: 200px;
+} */
+body{
+	background-color: #1eb57e;
+	margin:0px;
+	padding:0px;
+  }
+  .main {
+	padding-top: 60px;
+	padding-bottom: 60px;
+  }
+  .form-container{
+	width: 420px;
+	height: 425px;
+	margin: 0 auto;
+	background-color: #00000070;
+	padding: 40px;
+	padding-top: 20px;
+	color:#f4f7f6;
+	border: 2px dotted white;
+	border-radius: 15px;
+  }
+  .form input {
+	width: 300px;
+	margin: 5px;
+	padding:5px;
+	border-radius: 5px;
+	border: 1px solid #1eb57e;
+	font-family: cursive;
+  }
+  .form select{
+	  margin: 5px;
+	  padding:5px;
+	  color: #646569;
+	  border-radius: 5px;
+	  border: 1px solid #1eb57e;
+	  font-family: cursive;
+  }
+  .form textarea{
+	  height: 73px;
+	  width: 300px;  
+	  margin: 5px;
+	  padding:5px;
+	  border-radius: 5px;
+	  resize: none;
+	  border: 1px solid #1eb57e;
+	  font-family: cursive;
+  }
+  .form-container h2{
+	text-align: center;
+	font-weight: 700;
+	font-family: cursive;
+  }
+  #send{
+	font-weight: 700;
+	width: 60px !important;
+  }
+  #cr1{
+		width: 25px;
+  }
+  #cr2{
+		width: 20px;
+  }
+  label{
+	font-family: cursive;
+	font-size: 14px;
+  }

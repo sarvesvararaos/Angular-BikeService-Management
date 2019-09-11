@@ -1,0 +1,63 @@
+ <div class="container-fluid">
+  <h2 class="reg">Registration Form</h2>
+  <form [formGroup]="Registration" (ngSubmit)="AddS()">
+    <table>
+        <!-- <tr class="form-group">
+            <td>Id</td>
+            <td><input type="text" class="form-control" formControlName="Id" [ngClass]="{ 'is-invalid': submitted && f.Id.errors }">
+              <div *ngIf="submitted && f.Id.errors" class="invalid-feedback">
+                <div *ngIf="f.Id.errors.required">Id is required</div>
+            </div> </td>
+          </tr> -->
+      <tr class="form-group">
+        <td>Username</td>
+        <td><input type="text" class="form-control" formControlName="Username" [ngClass]="{ 'is-invalid': submitted && f.Username.errors }"> <div *ngIf="submitted && f.Username.errors" class="invalid-feedback">
+          <div *ngIf="f.Username.errors.required">Username is required</div>
+      </div></td>
+      </tr>
+      <tr>
+        <td>FirstName</td>
+        <td><input type="text" class="form-control"formControlName="FirstName" [ngClass]="{ 'is-invalid': submitted && f.FirstName.errors }"><div *ngIf="submitted && f.FirstName.errors" class="invalid-feedback">
+          <div *ngIf="f.FirstName.errors.required">Firstname is required</div>
+      </div></td>
+      </tr>
+      <tr>
+          <td>LastName</td>
+          <td><input type="text" class="form-control" formControlName="LastName" [ngClass]="{ 'is-invalid': submitted && f.LastName.errors }"><div *ngIf="submitted && f.LastName.errors" class="invalid-feedback">
+            <div *ngIf="f.LastName.errors.required">Lastname is required</div>
+        </div></td>
+      </tr>
+      <tr>
+          <td>Email</td>
+          <td><input type="email" class="form-control" formControlName="Email" [ngClass]="{ 'is-invalid': submitted && f.Email.errors }" ><div *ngIf="submitted && f.Email.errors" class="invalid-feedback">
+            <div *ngIf="f.Email.errors.required">Email is required</div>
+            <div *ngIf="f.Email.errors.email">Email must be a valid email address</div>
+        </div></td>
+       </tr>
+      <tr>
+        <td>Password</td>
+        <td><input type="password" class="form-control"formControlName="Passowrd" [ngClass]="{ 'is-invalid': submitted && f.control.Passowrd.errors }"><div *ngIf="submitted && f.control.Passowrd.errors" class="invalid-feedback">
+          <div *ngIf="f.control.Passowrd.errors.required">Password is required</div>
+          <div *ngIf="f.control.Passowrd.errors.minlength">Password must be at least 6 characters</div>
+      </div></td>
+      </tr>
+      <tr>
+          <td>ConfirmPassword</td>
+          <td><input type="password" class="form-control" formControlName="ConfirmPassword" [ngClass]="{ 'is-invalid': submitted && f.control.ConfirmPassowrd.errors }" ><div *ngIf="submitted && f.control.ConfirmPassowrd.errors" class="invalid-feedback">
+            <div *ngIf="f.control.ConformPassword.errors.required">Password is required</div>
+            <div *ngIf="f.control.ConfirmPasswordd.errors.minlength">Password must be at least 6 characters</div>
+        </div></td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td><input type="number" class="form-control" formControlName="Phone" [ngClass]="{ 'is-invalid': submitted && f.Phone.errors }"><div *ngIf="submitted && f.Phone.errors" class="invalid-feedback">
+          <div *ngIf="f.Phone.errors.required">Phone number is required</div>
+      </div></td>
+      </tr>
+    <tr><td><button class="btn-primary" type="submit" button [disabled]="loading" required>Submit</button></td>
+    <td><button class="btn-primary" type="Reset" >Reset</button></td></tr>
+    </table>  
+  </form>
+  </div>
+
+  

@@ -1,0 +1,24 @@
+
+
+<div id="body"><p>Welocme to Bike Service</p>
+<form [formGroup]="Registration" (ngSubmit)="onSubmit()">
+    <h3 style="text-align: center;margin-bottom:40px;">Login</h3>
+<tr class="form-group">
+  <td><b style="font-size:17px;font-style: italic;">Email</b></td>
+  <td><input type="email" class="form-control" formControlName="Email" [ngClass]="{ 'is-invalid': submitted && f.Email.errors }" ><div *ngIf="submitted && f.Email.errors" class="invalid-feedback">
+    <div *ngIf="f.Email.errors.required">Email is required</div>
+    <div *ngIf="f.Email.errors.email">Email must be a valid email address</div>
+</div></td>
+  </tr>
+  <tr>
+    <td><b style="font-size:17px;font-style: italic;">Password</b></td>
+        <td><input type="password" class="form-control"formControlName="Passowrd" [ngClass]="{ 'is-invalid': submitted && f.control.Passowrd.errors }"><div *ngIf="submitted && f.control.Passowrd.errors" class="invalid-feedback">
+          <div *ngIf="f.control.Passowrd.errors.required">Password is required</div>
+          <div *ngIf="f.control.Passowrd.errors.minlength">Password must be at least 6 characters</div>
+      </div></td>
+  </tr>
+  <tr>
+     <td><button style="background: orange; "button [disabled]="loading">Login</button></td> 
+     <td><button style="background: orange;" routerLink="/forget">Forget</button></td> 
+    </form>
+  </div>

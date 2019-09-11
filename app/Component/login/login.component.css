@@ -1,0 +1,103 @@
+
+input{
+    width: 200px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    height: 28px;
+    background:rgb(255, 255, 255);
+    
+}
+.container-fluid{
+    color: white;
+    float: right;
+    margin-top:100px; 
+    margin-right: 100PX;
+    width: 500px;
+    border-radius: 100px;
+    padding: 30px 50px 30px;
+    border: 1px solid #BFBFBF;
+    background-color: rgb(24, 50, 60);
+    
+}
+td{
+    padding: 10px;
+}
+table{
+    width: 250px;
+    margin-top:20px; 
+    
+}
+.reg{
+    padding-top: 20px;
+    text-align: center;
+    font-family:monospace;
+}
+button{
+    
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-primary {
+    font-family: -webkit-pictograph;
+    background-color: #984209;
+    border-color: #beffe7;
+}
+#img{
+  
+    background-size: cover;
+    
+    
+}
+form{
+    
+    border: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    width: 400px;
+    padding: 50px 30px 30px 30px;
+    background: rgba(57, 25, 7, 0.29);
+    float:right;
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+p {
+    margin-top: -200px;
+    margin-left: 100px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  
+#body {
+        margin: 0;
+        
+        padding-left: 100px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgba(57, 25, 7, 0.29);
+      }
+  

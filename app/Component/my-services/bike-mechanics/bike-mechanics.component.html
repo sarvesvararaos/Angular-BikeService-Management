@@ -1,0 +1,32 @@
+<table align="center" border="1px solid black" class="table table-hover">
+    <tr>
+      
+      <th>MechanicId</th>
+      <th>MechanicName</th>
+      <!-- <th>Address</th> -->
+        <th>Phone</th>
+        <td>Call Facility</td>
+        <td>Profile</td>
+    </tr>
+  <tr *ngFor="let p of userdetails" >
+    
+    
+    
+      
+  <td>{{p.MechanicId}}</td>
+  <td>{{p.MechanicName}}</td>
+  <!-- <td>{{p.Address}}</td> -->
+  <td>{{p.Phone}}</td>
+  <td><button class="btn-primary" (click)="display()">Call</button></td>
+  <td><button type="button" class="btn-primary" routerLink="/view">View</button></td>
+ 
+  
+  </tr>
+  </table>
+
+  <!-- <input type="text" name="name" id="name"#newid>
+<button type="button" (click)="getSin()">Submit</button>
+  <h1 *ngIf="MechanicId==newid">{{userdetails1.MechanicName}}</h1> -->
+
+  
+ 
